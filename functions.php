@@ -144,6 +144,7 @@ function life_insurance_theme_scripts() {
 
 	wp_enqueue_script( 'life-insurance-theme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 	wp_enqueue_script( 'life-insurance-main-script', get_template_directory_uri() . '/assets/js/main.js', array('jquery'), null, true );
+	wp_enqueue_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js', array(), null, null);
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
