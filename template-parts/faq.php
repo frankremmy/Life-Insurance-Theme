@@ -1,3 +1,4 @@
+
 <!-- FAQs Start -->
 <div class="container-fluid faq-section bg-light py-5">
 	<div class="container py-5">
@@ -49,7 +50,7 @@
 				</div>
 			</div>
 			<div class="col-xl-6 wow fadeInRight" data-wow-delay="0.4s">
-				<img src="img/carousel-2.png" class="img-fluid w-100" alt="">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/carousel-2.png" class="img-fluid w-100" alt="">
 			</div>
 		</div>
 	</div>
