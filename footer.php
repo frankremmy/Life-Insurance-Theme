@@ -9,7 +9,7 @@
                             <div class="footer-item">
                                 <a href="<?php echo home_url('/'); ?>" class="p-0">
                                     <h3 class="text-white"><i class="fab fa-slack me-3"></i> LifeSure</h3>
-                                    <!-- <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Logo"> -->
+                                    <!-- <img /assets/img/logo.png" alt="Logo"> -->
                                 </a>
                                 <p class="text-white mb-4">Dolor amet sit justo amet elitr clita ipsum elitr est. Lorem ipsum dolor sit amet, consectetur adipiscing...</p>
                                 <div class="footer-btn d-flex">
@@ -39,9 +39,9 @@
 									<?php for ($i = 1; $i <= 6; $i++) : ?>
                                         <div class="col-4">
                                             <div class="footer-instagram rounded">
-                                                <img src="<?php echo get_template_directory_uri(); ?>/img/instagram-footer-<?php echo $i; ?>.jpg" class="img-fluid w-100" alt="">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram-footer-<?php echo $i; ?>.jpg" class="img-fluid w-100" alt="">
                                                 <div class="footer-search-icon">
-                                                    <a href="<?php echo get_template_directory_uri(); ?>/img/instagram-footer-<?php echo $i; ?>.jpg" data-lightbox="footerInstagram-<?php echo $i; ?>" class="my-auto">
+                                                    <a href="<?php echo get_template_directory_uri(); ?>/assets/img/instagram-footer-<?php echo $i; ?>.jpg" data-lightbox="footerInstagram-<?php echo $i; ?>" class="my-auto">
                                                         <i class="fas fa-link text-white"></i>
                                                     </a>
                                                 </div>

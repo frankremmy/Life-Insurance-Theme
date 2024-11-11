@@ -22,7 +22,7 @@
 					<div class="row g-4 justify-content-center">
 						<div class="col-12">
 							<div class="rounded bg-light">
-								<img src="img/about-1.png" class="img-fluid rounded w-100" alt="">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/about-1.png" class="img-fluid rounded w-100" alt="">
 							</div>
 						</div>
 						<div class="col-sm-6">

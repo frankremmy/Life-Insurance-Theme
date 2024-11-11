@@ -23,6 +23,8 @@ get_header();
 		<?php get_template_part('template-parts/carousel'); ?>
 		<?php get_template_part('template-parts/feature'); ?>
 		<?php get_template_part('template-parts/about'); ?>
+        <?php get_template_part('template-parts/service'); ?>
+        <?php get_template_part( 'template-parts/faq'); ?>
 		<?php get_template_part('template-parts/blog'); ?>
 		<?php get_template_part('template-parts/team'); ?>
 		<?php get_template_part('template-parts/testimonial'); ?>

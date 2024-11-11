@@ -151,10 +151,10 @@ function life_insurance_theme_scripts() {
 //	Other Libraries
 	wp_enqueue_script('wow', get_template_directory_uri() . '/assets/lib/wow/wow.min.js', array(), null, true);
 	wp_enqueue_script('easing', get_template_directory_uri() . '/assets/lib/easing/easing.min.js', array(), null, true);
-	wp_enqueue_script('waypoints', get_template_directory_uri() . 'assets/lib/waypoints/waypoints.min.js', array(), null, true);
-	wp_enqueue_script('counterup', get_template_directory_uri() . 'assets/lib/counterup/counterup.min.js', array(), null, true);
-	wp_enqueue_script('lightbox', get_template_directory_uri() . 'assets/lib/lightbox/js/lightbox.min.js', array(), null, true);
-	wp_enqueue_script('owl-carousel', get_template_directory_uri() . 'assets/lib/owlcarousel/owl.carousel.min.js', array(), null, true);
+	wp_enqueue_script('waypoints', get_template_directory_uri() . '/assets/lib/waypoints/waypoints.min.js', array(), null, true);
+	wp_enqueue_script('counterup', get_template_directory_uri() . '/assets/lib/counterup/counterup.min.js', array(), null, true);
+	wp_enqueue_script('lightbox', get_template_directory_uri() . '/assets/lib/lightbox/js/lightbox.min.js', array(), null, true);
+	wp_enqueue_script('owl-carousel', get_template_directory_uri() . '/assets/lib/owlcarousel/owl.carousel.min.js', array(), null, true);
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

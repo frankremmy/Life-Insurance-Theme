@@ -29,7 +29,7 @@
 			<div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
 				<div class="service-item">
 					<div class="service-img">
-						<img src="/wp-content/themes/life-insurance-theme/assets/img/blog-2.png" class="img-fluid rounded-top w-100" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/blog-2.png" class="img-fluid rounded-top w-100" alt="">
 						<div class="service-icon p-3">
 							<i class="fa fa-hospital fa-2x"></i>
 						</div>
@@ -46,7 +46,7 @@
 			<div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
 				<div class="service-item">
 					<div class="service-img">
-						<img src="img/blog-3.png" class="img-fluid rounded-top w-100" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/blog-3.png" class="img-fluid rounded-top w-100" alt="">
 						<div class="service-icon p-3">
 							<i class="fa fa-car fa-2x"></i>
 						</div>
@@ -63,7 +63,7 @@
 			<div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
 				<div class="service-item">
 					<div class="service-img">
-						<img src="img/blog-4.png" class="img-fluid rounded-top w-100" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/blog-4.png" class="img-fluid rounded-top w-100" alt="">
 						<div class="service-icon p-3">
 							<i class="fa fa-home fa-2x"></i>
 						</div>

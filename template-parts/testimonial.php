@@ -61,7 +61,7 @@
 				<div class="row g-0">
 					<div class="col-4  col-lg-4 col-xl-3">
 						<div class="h-100">
-							<img src="img/testimonial-3.jpg" class="img-fluid h-100 rounded" style="object-fit: cover;" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/testimonial-3.jpg" class="img-fluid h-100 rounded" style="object-fit: cover;" alt="">
 						</div>
 					</div>
 					<div class="col-8 col-lg-8 col-xl-9">
