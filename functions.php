@@ -50,6 +50,8 @@ function life_insurance_theme_setup() {
 	register_nav_menus(
 		array(
 			'menu-1' => esc_html__( 'Primary', 'life-insurance-theme' ),
+			'header-menu' => esc_html__( 'Header Menu', 'life-insurance-theme' ),
+			'footer-menu' => esc_html__( 'Footer Menu', 'life-insurance-theme' ),
 		)
 	);
 
